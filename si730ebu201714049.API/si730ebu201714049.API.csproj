@@ -7,6 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="8.0.0" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+        <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
@@ -18,8 +24,6 @@
       <Folder Include="Loyalty\Repositories" />
       <Folder Include="Loyalty\Resources" />
       <Folder Include="Loyalty\Services" />
-      <Folder Include="Shared\Domain\Services" />
-      <Folder Include="Shared\Extensions" />
       <Folder Include="Shared\Persistence" />
     </ItemGroup>
 
