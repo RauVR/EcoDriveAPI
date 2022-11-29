@@ -7,7 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Loyalty\Controller" />
+      <Folder Include="Loyalty\Domain\Repositories" />
+      <Folder Include="Loyalty\Domain\Services\Communication" />
+      <Folder Include="Loyalty\Mapping" />
+      <Folder Include="Loyalty\Repositories" />
+      <Folder Include="Loyalty\Resources" />
+      <Folder Include="Loyalty\Services" />
+      <Folder Include="Shared\Domain\Services" />
+      <Folder Include="Shared\Extensions" />
+      <Folder Include="Shared\Persistence" />
     </ItemGroup>
 
 </Project>
