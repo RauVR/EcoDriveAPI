@@ -17,14 +17,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Loyalty\Controller" />
       <Folder Include="Loyalty\Domain\Repositories" />
-      <Folder Include="Loyalty\Domain\Services\Communication" />
-      <Folder Include="Loyalty\Mapping" />
       <Folder Include="Loyalty\Repositories" />
-      <Folder Include="Loyalty\Resources" />
       <Folder Include="Loyalty\Services" />
-      <Folder Include="Shared\Persistence" />
     </ItemGroup>
 
 </Project>
